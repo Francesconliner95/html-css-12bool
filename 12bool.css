@@ -4,11 +4,17 @@
     margin: 0 auto;
 }
 
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 [class*="col-"]{
     float: left;
     height: 75px;
     /* background-color: lightgreen; */
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 .col-1{
@@ -57,4 +63,12 @@
 
 .col-12{
     width: 100% ;
+}
+
+.margin-top{
+    margin-top: 50px;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
 }
