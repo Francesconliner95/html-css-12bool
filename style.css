@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+[class*="col-"]{
+		animation: clock 5s linear;
+}
+
+@keyframes clock {
+		from {
+				-webkit-transform: scale(.5);
+		}
+		to {
+				-webkit-transform: scale(1);
+		}
+}
+
 .color-1{
     background-color: #0c7556;
 }
