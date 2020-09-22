@@ -1,12 +1,13 @@
 
 .container{
     width: 1170px;
+    margin: 0 auto;
 }
 
 [class*="col-"]{
     float: left;
-    height: 100px;
-    background-color: lightgreen;
+    height: 75px;
+    /* background-color: lightgreen; */
     border: solid 1px black;
 }
 
